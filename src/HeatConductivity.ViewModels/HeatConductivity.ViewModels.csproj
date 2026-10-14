@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>HeatConductivity.ViewModels</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HeatConductivity.Core\HeatConductivity.Core.csproj" />
+    <ProjectReference Include="..\HeatConductivity.Services\HeatConductivity.Services.csproj" />
+  </ItemGroup>
+
+</Project>

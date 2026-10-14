@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HeatConductivity.Services/1.0.0": {
+        "dependencies": {
+          "HeatConductivity.Core": "1.0.0"
+        },
+        "runtime": {
+          "HeatConductivity.Services.dll": {}
+        }
+      },
+      "HeatConductivity.Core/1.0.0": {
+        "runtime": {
+          "HeatConductivity.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeatConductivity.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HeatConductivity.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

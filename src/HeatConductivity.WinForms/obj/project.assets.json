@@ -1,0 +1,232 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0-windows": {
+      "OxyPlot.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/OxyPlot.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OxyPlot.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OxyPlot.WindowsForms/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "OxyPlot.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/OxyPlot.WindowsForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/OxyPlot.WindowsForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "HeatConductivity.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HeatConductivity.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HeatConductivity.Core.dll": {}
+        }
+      },
+      "HeatConductivity.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HeatConductivity.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HeatConductivity.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HeatConductivity.Services.dll": {}
+        }
+      },
+      "HeatConductivity.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HeatConductivity.Core": "1.0.0",
+          "HeatConductivity.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HeatConductivity.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HeatConductivity.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OxyPlot.Core/2.2.0": {
+      "sha512": "QhXNdXR5FPpro/VoLx3BOp6AhQo7YrbfmWEZ9cgY+pnYM7RYORZjnu+aDMA8ka9A1r8hLkX//NbCPZNUv+l8qA==",
+      "type": "package",
+      "path": "oxyplot.core/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "OxyPlot_128.png",
+        "README.md",
+        "lib/net462/OxyPlot.dll",
+        "lib/net462/OxyPlot.xml",
+        "lib/net6.0/OxyPlot.dll",
+        "lib/net6.0/OxyPlot.xml",
+        "lib/net8.0/OxyPlot.dll",
+        "lib/net8.0/OxyPlot.xml",
+        "lib/netstandard2.0/OxyPlot.dll",
+        "lib/netstandard2.0/OxyPlot.xml",
+        "oxyplot.core.2.2.0.nupkg.sha512",
+        "oxyplot.core.nuspec"
+      ]
+    },
+    "OxyPlot.WindowsForms/2.2.0": {
+      "sha512": "jkveaQ7d3PanUP6OKaZ+IXFPuwpyabifPQiQZ40pQls8Tuedf0mUZ8JcLkMltK5Jkj/JRwGP2cNn1oJ8NwaV3A==",
+      "type": "package",
+      "path": "oxyplot.windowsforms/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "OxyPlot_128.png",
+        "README.md",
+        "lib/net462/OxyPlot.WindowsForms.dll",
+        "lib/net462/OxyPlot.WindowsForms.xml",
+        "lib/net6.0-windows7.0/OxyPlot.WindowsForms.dll",
+        "lib/net6.0-windows7.0/OxyPlot.WindowsForms.xml",
+        "lib/net8.0-windows7.0/OxyPlot.WindowsForms.dll",
+        "lib/net8.0-windows7.0/OxyPlot.WindowsForms.xml",
+        "oxyplot.windowsforms.2.2.0.nupkg.sha512",
+        "oxyplot.windowsforms.nuspec"
+      ]
+    },
+    "HeatConductivity.Core/1.0.0": {
+      "type": "project",
+      "path": "../HeatConductivity.Core/HeatConductivity.Core.csproj",
+      "msbuildProject": "../HeatConductivity.Core/HeatConductivity.Core.csproj"
+    },
+    "HeatConductivity.Services/1.0.0": {
+      "type": "project",
+      "path": "../HeatConductivity.Services/HeatConductivity.Services.csproj",
+      "msbuildProject": "../HeatConductivity.Services/HeatConductivity.Services.csproj"
+    },
+    "HeatConductivity.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../HeatConductivity.ViewModels/HeatConductivity.ViewModels.csproj",
+      "msbuildProject": "../HeatConductivity.ViewModels/HeatConductivity.ViewModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows": [
+      "HeatConductivity.Core >= 1.0.0",
+      "HeatConductivity.Services >= 1.0.0",
+      "HeatConductivity.ViewModels >= 1.0.0",
+      "OxyPlot.WindowsForms >= 2.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.WinForms\\HeatConductivity.WinForms.csproj",
+      "projectName": "HeatConductivityApp",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.WinForms\\HeatConductivity.WinForms.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.WinForms\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.Core\\HeatConductivity.Core.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.Core\\HeatConductivity.Core.csproj"
+            },
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.Services\\HeatConductivity.Services.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.Services\\HeatConductivity.Services.csproj"
+            },
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.ViewModels\\HeatConductivity.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\HeatConductivity\\src\\HeatConductivity.ViewModels\\HeatConductivity.ViewModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "OxyPlot.WindowsForms": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

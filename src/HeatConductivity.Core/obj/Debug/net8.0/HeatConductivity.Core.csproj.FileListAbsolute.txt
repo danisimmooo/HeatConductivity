@@ -1,0 +1,12 @@
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\bin\Debug\net8.0\HeatConductivity.Core.deps.json
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\bin\Debug\net8.0\HeatConductivity.Core.dll
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\bin\Debug\net8.0\HeatConductivity.Core.pdb
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\HeatConductivity.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\HeatConductivity.Core.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\HeatConductivity.Core.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\HeatConductivity.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\HeatConductivity.Core.dll
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\refint\HeatConductivity.Core.dll
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\HeatConductivity.Core.pdb
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\ref\HeatConductivity.Core.dll
+C:\Users\User\OneDrive\Рабочий стол\HeatConductivity\src\HeatConductivity.Core\obj\Debug\net8.0\HeatCond.47D069FB.Up2Date
